@@ -1,0 +1,243 @@
+body{
+	background: url("../img/fon1.png") no-repeat fixed;
+	background-size: 100%;
+	background-repeat: repeat-y;
+}
+.main{
+	width: 940px;
+	margin:0px auto;
+	padding-bottom: 100px;
+	margin-top:-8px;
+}
+
+.head{
+	background-color: #E1E1E1;
+	height:50px;
+	float: left;
+	width: 900px;
+	border: 1px solid blue;
+	border-radius: 8px;
+	position: fixed;
+}
+.body{
+	float: right;
+	width: 740px;
+	margin:58px 0 0 5px;
+	padding-bottom: 100px;
+	border: 1px solid blue;
+	border-radius: 8px;
+	background-color: #F0F0F0;
+	margin-right: 40px;
+}
+
+.body_top{
+	height:30px;
+	width: 60%;
+	border-top-right-radius: 8px; 
+	border-top-left-radius: 8px; 
+	background-color: #E1E1E1;
+	padding-left: 40%;
+}
+
+.menu_div{
+	position:fixed; 
+	float:left;
+	margin-top: 57px;
+	border: 1px solid blue;
+	border-radius: 8px;
+	width: 150px;
+	background-color: #F0F0F0;
+}
+.menu{
+	float: left;
+	margin-left: 100px;
+}
+
+.menu li{
+	float: left;
+	margin-top:-15px;
+	margin-left: 15px;
+	cursor: pointer;
+	padding:15px 15px 15px 15px;
+}
+
+.menu li:hover{
+	background-color: #D4FFFF;
+}
+
+.menu_ver{
+	float: left;
+	margin-left: -15px;
+	text-align: center;
+}
+
+.menu_ver li{
+	margin-top:10px;
+	margin-left: -10px;
+	list-style-type: none;
+	padding: 5px 50px 5px 2px ;
+}
+
+.menu_ver a{
+	text-decoration: none;
+}
+
+.menu_ver li:hover{
+	background-color: #D4FFFF;
+	border: 1px solid green;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 1px;
+
+}
+
+.icon{
+	float:left;
+	height: 48px;
+	width: 48px;
+	margin-left: 60px;
+}
+ 
+.regis{
+	float: left;
+	margin:10px 0 0 20px;
+	font-size: 17px;
+	color:blue;
+}
+
+.registr{
+	margin:auto;
+	padding: 10px;
+	width: 150px;
+}
+
+.input{
+	margin-left:10px;
+	font-size:14px;
+	width:130px;
+}
+
+.regis_button{
+	padding: 5px 15px 5px 15px;
+	margin-left: 35px;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+
+.ava{
+	float: left;
+	height: 160px;
+	width: 120px;
+	margin-left: 10px;
+}
+
+.ava_friends{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	float: left;
+	height: 94px;
+	width: 70px;
+	margin-left:-10px;
+	padding-right: 20px;
+}
+
+.information{
+	float: left;
+	width: 500px;
+	height: 200px;
+	margin-left: 20px;
+}
+
+.wall{
+	float:left;
+	width: 720px;
+	height: auto;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	margin-left: 10px;
+	border: 1px solid green;
+	background-color: white;
+}
+
+.add_news{
+	width: 690px;
+	margin: auto;
+	margin-top:10px;
+	height: auto;
+	border: 1px solid green;
+	background-color: #e6ffff;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.text_news{
+	margin:10px;
+	width: 660px;
+	max-width: 660px;
+}
+
+.button_news{
+	margin-left: 600px;
+	margin-bottom: 10px;
+	float: left;
+	margin-top: -30px;
+	padding: 5px;
+}
+
+.button_mess{
+	margin-left: 570px;
+	margin-bottom: 10px;
+	float: left;
+	margin-top: -5px;
+	padding: 5px;
+}
+
+.img_news{
+	height: 30px;
+	width: 30px;
+	margin-left: 550px;
+}
+
+.wall_picture{
+	max-height: 400px;
+	max-width: 600px;
+}
+
+.start_chat{
+	padding: 5px;
+	float: right;
+	margin-top: -50px; 
+	margin-right: 50px; 
+}
+
+.show_mess_from{
+	height: auto;
+	background-color: green;
+	text-align: left;
+	color: white;
+	margin: 10px;
+	margin-left: 440px;
+	padding:3px;
+	padding-left:10px;
+	border: 1px solid blue; 
+	max-width: 200px;
+	border-radius: 9px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.show_mess_to{
+	height: auto;
+	max-width: 200px;
+	background-color: purple;
+	text-align: left;
+	color: white;
+	margin:10px;
+	margin-left: 30px;
+	padding: 3px;
+	padding-left:10px;
+	border: 1px solid blue;
+	border-radius: 9px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
